@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <title>Drive-X</title>
-</head>
+<?php include_once "repoData.php"; ?>
+
+<?php include_once "partials/header.php";?>
 <body>
     
-    <?php include_once "partials/header.php";?>
 
     <div class="container">
     <div class="jumbotron my-5 text-center">
@@ -26,6 +18,37 @@
                 <a class="btn btn-primary btn-lg" routerLink="cars" role="button">eXotic Cars</a>
             </p>
         </div>
+        <h2 class="my-5 text-center">Nos Pilotes d'Exception</h2>
+
+        <div class="card text-center shadow">
+
+                <div class="card-header bg-dark text-white">
+                    <h2 class="card-title">Lewis Hamilton</h2>
+                </div>
+
+                <div class="card-body">
+
+                    <img src="./assets/img/drivers/lewis.jpg" width="300px" height="150px" class="img-fluid"
+                        alt="photo kenblock">
+                    <hr>
+
+                    <p>Origine: Angleterre</p>
+
+                    <p>Discipline:
+                        <span class=" badge badge-primary">formule 1</span>
+                    </p>
+
+                    <button class="btn btn-success mx-2 border">
+                        <i class="fas fa-thumbs-up"></i>
+                    </button>
+
+                    <button class="btn btn-danger border">
+                        <i class="fas fa-thumbs-down"></i>
+                    </button>
+
+                </div>
+            </div>
+
     </div>
 
 
