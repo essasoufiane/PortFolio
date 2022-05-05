@@ -5,9 +5,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=gta_rp', "root", ""); // connexion Ã
 // $username = "Michel"; // recupÃ©re du formulaire
 
 $req  = $bdd->prepare("SELECT * FROM users"); // la requete 
-// $req  = $bdd->prepare("SELECT * FROM jeux_video WHERE possesseur=:username"); // la requete 
 
-// $req->bindValue('username', $username, PDO::PARAM_STR); // le param
 
 $req->execute(); // envoi et execution en BDD 
 
@@ -79,3 +77,7 @@ $req->closeCursor(); // coupe la connection avec la bdd
 </body>
 
 </html>
+
+
+<!-- -------------creat------------- -->
+
