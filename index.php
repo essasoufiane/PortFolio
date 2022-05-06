@@ -1,4 +1,5 @@
 <?php require_once "partials/header.php" ?>
+<<<<<<< HEAD
 <?php require_once "partials/listeDesjoueurs.php" ?>
 
 
@@ -32,3 +33,6 @@ Votre idée: <input type="text" name="idee" />
 
 </body>
 </html>
+=======
+<?php require_once "partials/listeDesjoueurs.php" ?>
+>>>>>>> parent of dea52d9 (formualaire_idee_BUG)
