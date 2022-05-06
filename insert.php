@@ -23,9 +23,10 @@
  
 
 // var_dump($_GET);
-if (!empty($_GET['nom'])) {
+if (!empty($_GET)) {
     $nom = $_GET['nom'];
-    echo "Bonjour, " . $nom;
+    $idee = $_GET['idee'];
+    echo "Bonjour, " . $nom . " <br> meric pour votre idée , je la trouve genial" . $idee;
 }else{
     header("Location: index.php");
 }
