@@ -15,7 +15,7 @@ Votre idée: <input type="text" name="idee" />
 
 <input type="submit" />
 </form> -->
-<div class="container">
+<!-- <div class="container">
 
 
     <form class="text-center form-groupe" action="insert.php" method="get">
@@ -24,12 +24,12 @@ Votre idée: <input type="text" name="idee" />
     <input class="form-control  my-2" type="text" name="nom" id="nom"/>
     <label for="nom">Votre idée:</label>
     <input class="form-control  my-2" type="text" name="idee" id="idee"/>
-    <!-- Votre idée: <input type="text" name="idee" /> -->
+    Votre idée: <input type="text" name="idee" /> -->
     
-    <button class="btn btn-info my-2" type="submit">Envoyer</button>
+    <!-- <button class="btn btn-info my-2" type="submit">Envoyer</button>
     
     </form>
-</div>
+</div> -->
 
 </body>
 </html>
