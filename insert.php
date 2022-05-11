@@ -8,12 +8,14 @@
 if ((!empty($_POST["email"] && $_POST["mdp"] && $_POST["nom"] && $_POST["prenom"] && $_POST["code_postal"] && $niveau = $_POST["age"])) && (preg_match("#^[0-9]{5}$#",$_POST['code_postal']))) {
 // je stock les données dans des variables
 $email = htmlspecialchars($_POST["email"]);
-$mdp = htmlspecialchars($_POST["mdp"]);
+$mdp = $_POST["mdp"];
 $nom = htmlspecialchars($_POST["nom"]);
 $prenom = htmlspecialchars($_POST["prenom"]);
 $code_postal = intval($_POST["code_postal"]);
 $age = $_POST["age"];
 $genre  = $_POST["inlineRadioOptions"];
+// crypter le mdp
+$mdpCrypte = password_hash($mdp, PASSWORD_DEFAULT);
 }
 
 
@@ -37,7 +39,7 @@ if (isset($email)) {
     $pdoStat->bindValue(':email', $email, PDO::PARAM_STR_CHAR);
     $pdoStat->bindValue(':mdp', $mdp, PDO::PARAM_STR_CHAR);
     $pdoStat->bindValue(':nom', $nom, PDO::PARAM_STR);
-    $pdoStat->bindValue(':prenom', $mdp, PDO::PARAM_STR);
+    $pdoStat->bindValue(':prenom', $mdpCrypte);
     $pdoStat->bindValue(':code_postal', $code_postal, PDO::PARAM_INT);
     $pdoStat->bindValue(':age', $age, PDO::PARAM_INT);
     $pdoStat->bindValue(':genre', $genre, PDO::PARAM_STR);
