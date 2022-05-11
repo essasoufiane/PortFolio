@@ -8,7 +8,7 @@
 
         <p class="alert text-info text-center alert-info">Insriver joue et rejoignez le serveur GTA RP sur fiveM !</p>
 
-        <form class=" d-flex flex-column"  action="insert.php" method="post">
+        <form class=" d-flex flex-column"  action="verif.php" method="post">
             <div class="form-group">
                 <label for="email">Ton Email</label>
                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" placeholder="exemple@exemple.fr">
