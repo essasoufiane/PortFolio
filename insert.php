@@ -37,9 +37,9 @@ $pdoStat = $objetPDO->prepare('INSERT INTO utilisateurs VALUES (NULL, :email, :m
 if (isset($email)) {
     # code...
     $pdoStat->bindValue(':email', $email, PDO::PARAM_STR_CHAR);
-    $pdoStat->bindValue(':mdp', $mdp, PDO::PARAM_STR_CHAR);
+    $pdoStat->bindValue(':mdp', $mdpCrypte, PDO::PARAM_STR_CHAR);
     $pdoStat->bindValue(':nom', $nom, PDO::PARAM_STR);
-    $pdoStat->bindValue(':prenom', $mdpCrypte);
+    $pdoStat->bindValue(':prenom', $prenom, PDO::PARAM_STR);
     $pdoStat->bindValue(':code_postal', $code_postal, PDO::PARAM_INT);
     $pdoStat->bindValue(':age', $age, PDO::PARAM_INT);
     $pdoStat->bindValue(':genre', $genre, PDO::PARAM_STR);

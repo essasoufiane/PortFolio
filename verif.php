@@ -1,12 +1,13 @@
 <?php
 
-var_dump($_POST);
+// var_dump($_POST);
 
+$mdp = $_POST['mdp'];
 $bdd = new PDO('mysql:host=localhost;dbname=gta_rp','root',''); // connexion à la BDD
 
-$mdpcript = $_POST["mdp"]; 
+$email = $_POST["email"]; 
 
-$req  = $bdd->prepare("SELECT * FROM utilisateurs WHERE mdp='".$mdpcript."'"); // la requete de comparaison
+$req  = $bdd->prepare("SELECT * FROM utilisateurs WHERE email='".$email."'"); // la requete de comparaison
 
 $req->execute(); // envoi et execution en BDD 
 
@@ -17,7 +18,11 @@ $req->closeCursor(); // coupe la connection avec la bdd
 
 var_dump($result);
 
-// crypter le mdp
+$hash = $result[0]['mdp'];
+// var_dump($hash);
+echo password_verify($mdp, $hash);
+
+// // crypter le mdp
 
 // echo password_hash("rasmuslerdorf", PASSWORD_DEFAULT);
 
