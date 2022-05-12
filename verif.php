@@ -16,11 +16,41 @@ $result = $req->fetchAll(PDO::FETCH_ASSOC); // recupere les datas de la req on m
 
 $req->closeCursor(); // coupe la connection avec la bdd 
 
-var_dump($result);
 
 $hash = $result[0]['mdp'];
 // var_dump($hash);
 echo password_verify($mdp, $hash);
+
+if (password_verify($mdp, $hash)) {
+    var_dump($result);
+    # code...
+}else {
+    ?>
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    <?php require_once "./partials/header.php" ?>
+    <div class="container d-flex flex-column text-center">
+        <div class="pt-5">
+
+            <p class="badge badge-danger">verifie ton adresse mail ou ton mots de passe</p>
+        </div>
+
+        <a class="pt-3" href="connexion.php"><button class="btn btn-primary">réessayer</button></a>
+        
+    </div>
+
+    </body>
+    </html>
+    <?php
+    
+}
 
 // // crypter le mdp
 

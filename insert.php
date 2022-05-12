@@ -15,7 +15,7 @@ $code_postal = intval($_POST["code_postal"]);
 $age = $_POST["age"];
 $genre  = $_POST["inlineRadioOptions"];
 // crypter le mdp
-$mdpCrypte = password_hash($mdp, PASSWORD_DEFAULT);
+$mdpCrypte = password_hash($mdp, PASSWORD_ARGON2ID);
 }
 
 
