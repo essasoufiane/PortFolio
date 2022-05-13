@@ -33,18 +33,14 @@ $x = new verification($email);
 if ($x->emailV) {
     // echo 'youhou';
     $req  = $bdd->prepare("SELECT * FROM utilisateurs WHERE email='".$email."'"); // la requete de comparaison
+
     $req->execute(); // envoi et execution en BDD 
-    
     
     $result = $req->fetchAll(PDO::FETCH_ASSOC); // recupere les datas de la req on met dans un tableau
     
     $req->closeCursor(); // coupe la connection avec la bdd 
     
-    
     $hash = $result[0]['mdp'];
-
-
-
 // var_dump($hash);
 // echo password_verify($mdp, $hash);
 
