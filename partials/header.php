@@ -27,6 +27,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="connexion.php">Connexion</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="maps.php">Map</a>
+                </li>
 
             </ul>
             <!-- <form class="form-inline my-2 my-lg-0">
