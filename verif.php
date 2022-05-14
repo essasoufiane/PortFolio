@@ -31,7 +31,7 @@ $x->verifEmail($email);
 
 // var_dump($x->emailV);
 
-
+ 
 if ($x->emailV) {
     // echo 'youhou';
     $req  = $bdd->prepare("SELECT * FROM utilisateurs WHERE email='".$email."'"); // la requete de comparaison

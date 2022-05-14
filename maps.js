@@ -9,9 +9,9 @@ window.onload = function() {
 }
 
 // on active la gestion d'itineraire
-L.Routing.control({
-        geocoder: L.Control.Geocoder.nominatim()
-    }).addTo(L.map("carte"))
+// L.Routing.control({
+//         geocoder: L.Control.Geocoder.nominatim()
+//     }).addTo(L.map("carte"))
     
     // let macarte = L.map("carte")
 //     L.Routing.control({
