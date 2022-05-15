@@ -10,55 +10,88 @@
 </head>
 
 <body>
-    <!-- section pricincpal -->
-    <main style=" background-attachment: fixed, scroll; background-image: url('assets/images/network-4894813_1920.jpg');
+    <!-- ---------------section pricincpal------------------ -->
+    <main>
+        <div style=" background-attachment: fixed, scroll; background-image: url('assets/images/network-4894813_1920.jpg');
         min-height: 350px;
         text-decoration: none;">
-    <section class="banniere d-flex flex-column">
-        <h1 class="pt-5 pb-2 text-center text-white">
-            Développeur Web et Web mobile
-        </h1>
-        <h2 class="p-5 text-center text-white">
-            Soufiane Essaouari
-        </h2>
-        <div class="d-flex justify-content-center pb-3">
+            <section class="banniere d-flex flex-column">
+                <h1 class="pt-5 pb-2 text-center text-white">
+                    Développeur Web et Web mobile
+                </h1>
+                <h2 class="p-5 text-center text-white">
+                    Soufiane Essaouari
+                </h2>
+                <div class="d-flex justify-content-center pb-3">
 
-            <button type="button" class=" btn btn-outline-light"><a href="#">Mon porifl GitHub</a></button>
+                    <button type="button" class=" btn btn-outline-light"><a class="text-white" href="#">Mon porifl GitHub</a></button>
+                </div>
+            </section>
+            <!------------------- Le texte urgence stage --------------->
+            <section class="pb-5">
+                <div class="wrapper">
+                    <marquee behavior="alternate"><span class="font-weight-bolder text-danger">Urgent ! Je cherche un stage !</span></marquee>
+                </div>
+                <!----------------- section Présentation ----------- -->
+                <div class="mx-auto card text-white bg-info" style="max-width: 18rem;">
+                    <div class="card-header font-weight-bold text-center">Présentation</div>
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Info card title</h5> -->
+                        <p class="card-text"> Je suis étudiant Développeur Web et Web mobile chez webforce3 à Mérignac, je termine la formation le 20 juin et je cherche un stage pour 2 mois ou plus à partir du 20 juin sur bordeaux et ses alentours.</p>
+                    </div>
+                </div>
+
+            </section>
         </div>
-    </section>
-    <!-- Le texte urgence stage -->
-    <section>
-        <div class="wrapper">
-            <marquee behavior="alternate"><span class="font-weight-bolder text-danger">Urgent ! Je cherche un stage !</span></marquee>
-        </div>
-        <!-- section Présentation  -->
-        <!-- <section> -->
-            <!-- <h2>Présentation</h2>
-        <P>
-            Je suis étudiant Développeur Web et Web mobile chez webforce3 à Mérignac, je termine la formation le 20 juin et je cherche un stage pour 2 mois ou plus à partir du 20 juin sur bordeaux et ses alentours.
-        </P> -->
-            <div class="mx-auto card text-white bg-info mb-3" style="max-width: 18rem;">
-                <div class="card-header font-weight-bold">Présentation</div>
+        <!-- ----------------section compétences------------ -->
+
+        <section>
+            <h2 class="text-center list-group-item-info list-group-item list-group-item-action">Compétences</h2>
+            <div class="d-flex justify-content-around flex-wrap">
+                <ul>
+                    <li>Angular 2+</li>
+                    <li>Symfony</li>
+                    <li>POO(orienté object)</li>
+                    <li>PHP</li>
+                    <li>SQL/MySQL/NoSQL</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                </ul>
+                <ul>
+                    <li>HTML5/CSS3</li>
+                    <li>Ux/Ui Design</li>
+                    <li>Bootstrap</li>
+                    <li>WordPress</li>
+                    <li>FIGMA/Adobe XD</li>
+                    <li>Adobe Ps,Ae,Pr,Ai</li>
+                    <li>Shopify</li>
+                </ul>
+            </div>
+        </section>
+        <!-- ------------------------articles 1 ------------------ -->
+        <section class="d-flex flex-wrap justify-content-around">
+        <article class="py-4 ">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/images/screen-alpha-series.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <!-- <h5 class="card-title">Info card title</h5> -->
-                    <p class="card-text"> Je suis étudiant Développeur Web et Web mobile chez webforce3 à Mérignac, je termine la formation le 20 juin et je cherche un stage pour 2 mois ou plus à partir du 20 juin sur bordeaux et ses alentours.</p>
+                    <h5 class="card-title">Alpha Séries</h5>
+                    <p class="card-text">J'ai coder ce site avec HTML/CSS en from scratch, vous pouvez le voir sur GitHub.</p>
+                    <a href="#" class="btn btn-primary">Voir le site</a>
                 </div>
             </div>
-            <!-- <div class="card">
-            <h5 class="text-center card-header">Présentation</h5>
-            <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <!-- <p class="card-text"> Je suis étudiant Développeur Web et Web mobile chez webforce3 à Mérignac, je termine la formation le 20 juin et je cherche un stage pour 2 mois ou plus à partir du 20 juin sur bordeaux et ses alentours.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            <!-- </div> -->
-            <!-- </div> --> -->
-        <!-- </section> -->
-    
-    <!-- section compétences -->
 
-    
+        </article>
+        <article class="py-4 ">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/images/cryptocurrency-6601591.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">CryptoManiax</h5>
+                    <p class="card-text">J'ai créé ce blog qui traite les sujets cryptomonnaies et blockchain.</p>
+                    <a href="#" class="btn btn-primary">Voir le site</a>
+                </div>
+            </div>
 
-
+        </article>
     </section>
     </main>
 </body>
