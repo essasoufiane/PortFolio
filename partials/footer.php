@@ -6,11 +6,11 @@
   >
     <!-- Left -->
     <div class="me-5 d-lg-block">
-      <span class="pr-4">Retrouvez moi sur les reseaux :</span>
-      <a class="pr-2" href="https://www.linkedin.com/in/soufiane-essaouari/" class="me-4 text-reset">
+      <span style="font-size: 1.5em;" class="pr-4">Retrouvez moi sur les reseaux :</span>
+      <a style="font-size: 2em;" class="pr-2" href="https://www.linkedin.com/in/soufiane-essaouari/" class="me-4 text-reset">
         <i class="fab fa-linkedin"></i>
       </a>
-      <a href="https://github.com/essasoufiane" class="me-4 text-reset">
+      <a style="font-size: 2em;" href="https://github.com/essasoufiane" class="me-4 text-reset">
         <i class="fab fa-github"></i>
       </a>
     </div>
