@@ -1,4 +1,5 @@
 <?php require_once "partials/header.php" ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,7 +48,7 @@
 
         <section>
             <h2 class="text-center list-group-item-info list-group-item list-group-item-action">Compétences</h2>
-            <div class="d-flex justify-content-around flex-wrap">
+            <div class="d-flex justify-content-around flex-wrap font-weight-bold">
                 <ul>
                     <li>Angular 2+</li>
                     <li>Symfony</li>
@@ -71,29 +72,30 @@
         <!-- ------------------------articles 1 ------------------ -->
         <section class="d-flex flex-wrap justify-content-around">
         <article class="py-4 ">
-            <div class="card" style="width: 18rem;">
+            <div class="card shadow" style="width: 18rem;">
                 <img class="card-img-top" src="assets/images/screen-alpha-series.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Alpha Séries</h5>
                     <p class="card-text">J'ai coder ce site avec HTML/CSS en from scratch, vous pouvez le voir sur GitHub.</p>
-                    <a href="#" class="btn btn-primary">Voir le site</a>
+                    <a href="https://essasoufiane.github.io/alpha-series/" class="btn btn-primary">Voir le site</a>
                 </div>
             </div>
 
         </article>
         <article class="py-4 ">
-            <div class="card" style="width: 18rem;">
+            <div class="card shadow" style="width: 18rem;">
                 <img class="card-img-top" src="assets/images/cryptocurrency-6601591.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">CryptoManiax</h5>
-                    <p class="card-text">J'ai créé ce blog qui traite les sujets cryptomonnaies et blockchain.</p>
-                    <a href="#" class="btn btn-primary">Voir le site</a>
+                    <p class="card-text">J'ai créé ce blog qui traite les sujets cryptomonnaies et blockchain avec WordPress.</p>
+                    <a href="https://cryptomaniax.fr/" class="btn btn-primary">Voir le site</a>
                 </div>
             </div>
 
         </article>
     </section>
     </main>
+
 </body>
 
 </html>

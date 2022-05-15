@@ -1,11 +1,11 @@
 
 <?PHP
 
-
+$regex = "/^([a-zA-Z0-9\.]+@+[a-zA-Z]+(\.)+[a-zA-Z]{2,3})$/";
 
 // var_dump($_POST);
 // -----------controle du forumaire------------
-if ((!empty($_POST["email"] && $_POST["mdp"] && $_POST["nom"] && $_POST["prenom"] && $_POST["code_postal"] && $niveau = $_POST["age"])) && (preg_match("#^[0-9]{5}$#",$_POST['code_postal']))) {
+if ((!empty($_POST["email"] && $_POST["mdp"] && $_POST["nom"] && $_POST["prenom"] && $_POST["code_postal"] && $niveau = $_POST["age"])) && (preg_match("#^[0-9]{5}$#",$_POST['code_postal'])) && (preg_match($regex, $email)))  {
 // je stock les données dans des variables
 $email = htmlspecialchars($_POST["email"]);
 $mdp = $_POST["mdp"];

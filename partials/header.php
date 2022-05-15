@@ -28,6 +28,9 @@
                     <a class="nav-link" href="connexion.php">Connexion</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="calculateurDeCharge.php">Calculateur de charges</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="maps.php">Map</a>
                 </li>
 
