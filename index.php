@@ -93,6 +93,17 @@
             </div>
 
         </article>
+        <article class="py-4 ">
+            <div class="card shadow" style="width: 18rem;">
+                <img class="card-img-top" src="assets/images/enregistrementImage.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">formulaire login</h5>
+                    <p class="card-text">J'ai créé un système de login vous pouvez vous enregistrer et vous connecter et vous  serais enregister dans la base de données de ce site vous serais afficher dans le tableau ci-dessous.</p>
+                    <a href="enregistrement.php" class="btn btn-primary">S'enregistrer</a>
+                </div>
+            </div>
+
+        </article>
     </section>
     </main>
 
