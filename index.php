@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Essaouari Soufiane</title>
 </head>
 
 <body>
@@ -73,7 +73,7 @@
         <section class="d-flex flex-wrap justify-content-around">
         <article class="py-4 ">
             <div class="card shadow" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/screen-alpha-series.jpg" alt="Card image cap">
+                <img class="card-img-top" src="assets/images/screen-alpha-series.jpg" alt="image blog apha series">
                 <div class="card-body">
                     <h5 class="card-title">Alpha Séries</h5>
                     <p class="card-text">J'ai coder ce site avec HTML/CSS en from scratch, vous pouvez le voir sur GitHub.</p>
@@ -84,7 +84,7 @@
         </article>
         <article class="py-4 ">
             <div class="card shadow" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/cryptocurrency-6601591.jpg" alt="Card image cap">
+                <img class="card-img-top" src="assets/images/cryptocurrency-6601591.jpg" alt="image blog cryptomonnaie">
                 <div class="card-body">
                     <h5 class="card-title">CryptoManiax</h5>
                     <p class="card-text">J'ai créé ce blog qui traite les sujets cryptomonnaies et blockchain avec WordPress.</p>
@@ -95,11 +95,22 @@
         </article>
         <article class="py-4 ">
             <div class="card shadow" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/enregistrementImage.png" alt="Card image cap">
+                <img class="card-img-top" src="assets/images/enregistrementImage.png" alt="image formulaire">
                 <div class="card-body">
                     <h5 class="card-title">formulaire login</h5>
                     <p class="card-text">J'ai créé un système de login vous pouvez vous enregistrer et vous connecter et vous  serais enregister dans la base de données de ce site vous serais afficher dans le tableau ci-dessous.</p>
                     <a href="enregistrement.php" class="btn btn-primary">S'enregistrer</a>
+                </div>
+            </div>
+
+        </article>
+        <article class="py-4 ">
+            <div class="card shadow" style="width: 18rem;">
+                <img class="card-img-top" src="assets/images/PortfolioCapture.png" alt="Portfolio">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio</h5>
+                    <p class="card-text">J'ai coder ce site from scratch avec PHP , vous pouvez voir le code sur GitHub.</p>
+                    <a href="https://github.com/essasoufiane/PortFolio" class="btn btn-primary">Voir le code</a>
                 </div>
             </div>
 

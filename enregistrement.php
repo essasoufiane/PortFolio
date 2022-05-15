@@ -4,9 +4,9 @@
 
 <body>
     <div class="container">
-        <h1 class="p-4 my-5 bg-info text-white text-center">Rejoindre le club</h1>
+        <h1 class="p-4 my-5 bg-info text-white text-center">Enregistrement</h1>
 
-        <p class="alert text-info text-center alert-info">Insriver joue et rejoignez le serveur GTA RP sur fiveM !</p>
+        <p class="alert text-info text-center alert-info">Enregistrez vous, avec des informations gérérique pour faire le teste !</p>
 
         <form class=" d-flex flex-column"  action="insert.php" method="post">
             <div class="form-group">
