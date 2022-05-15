@@ -54,5 +54,4 @@
 </body>
 
 </html>
-
-<?php
+<?php require_once "partials/footer.php" ?>

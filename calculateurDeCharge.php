@@ -92,3 +92,5 @@ if (!empty($_GET)) {
 </body>
 
 </html>
+
+<?php require_once "partials/footer.php" ?>

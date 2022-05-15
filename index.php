@@ -1,12 +1,21 @@
 <?php require_once "partials/header.php" ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+<html prefix="og: http://ogp.me/ns#">
+<meta property="og:title" content="Développeur Web/Mobile & Soufiane Essaouari"/>
+<meta property="og:description" content="PortFolio Développeur Soufiane Essaouari & Web/Mobile"/>
+<meta property="og:image" content="https://soufiane-essaouari.fr/assets/images/bannière-portfolio.jpg" />
+<meta property="og:url" content="https://soufiane-essaouari.fr/" />
+<meta property="og:type" content="website">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <title>Essaouari Soufiane</title>
 </head>
 
@@ -84,6 +93,19 @@
         </article>
         <article class="py-4 ">
             <div class="card shadow" style="width: 18rem;">
+                <img class="card-img-top" src="assets/images/cvCapture.png" alt="image blog cryptomonnaie">
+                <div class="card-body">
+                    <h5 class="card-title">CV</h5>
+                    <p class="card-text">Vous pouvez telecharger mon CV en pdf ici.</p>
+                    <a href="assets/ESSAOUARI_Soufiane.pdf" download="ESSAOUARI_Soufiane.pdf" class="btn btn-primary">Telecharger le CV</a>
+
+                </div>
+            </div>
+
+        </article>
+        </article>
+        <article class="py-4 ">
+            <div class="card shadow" style="width: 18rem;">
                 <img class="card-img-top" src="assets/images/cryptocurrency-6601591.jpg" alt="image blog cryptomonnaie">
                 <div class="card-body">
                     <h5 class="card-title">CryptoManiax</h5>
@@ -98,7 +120,7 @@
                 <img class="card-img-top" src="assets/images/enregistrementImage.png" alt="image formulaire">
                 <div class="card-body">
                     <h5 class="card-title">formulaire login</h5>
-                    <p class="card-text">J'ai créé un système de login vous pouvez vous enregistrer et vous connecter et vous  serais enregister dans la base de données de ce site vous serais afficher dans le tableau ci-dessous.</p>
+                    <p class="card-text">J'ai créé un système de login vous pouvez vous enregistrer et vous connecter et vous  serais enregister dans la base de données de ce site vous serais afficher dans la page <a href="utilisateurs.php">utilisateurs</a> .</p>
                     <a href="enregistrement.php" class="btn btn-primary">S'enregistrer</a>
                 </div>
             </div>
@@ -121,3 +143,4 @@
 </body>
 
 </html>
+<?php require_once "partials/footer.php" ?>
