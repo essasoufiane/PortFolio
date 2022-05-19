@@ -2,7 +2,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 <html prefix="og: http://ogp.me/ns#">
@@ -80,7 +80,7 @@
         </section>
         <!-- ------------------------articles 1 ------------------ -->
         <section class="d-flex flex-wrap justify-content-around">
-        <article class="py-4 ">
+        <article class="py-4 hvr-grow">
             <div class="card shadow" style="width: 18rem;">
                 <img class="card-img-top" src="assets/images/poo_mvc_fromscratchCapture.png" alt="image site php">
                 <div class="card-body">
@@ -91,7 +91,7 @@
             </div>
 
         </article>
-        <article class="py-4 ">
+        <article class="py-4 hvr-grow">
             <div class="card shadow" style="width: 18rem;">
                 <img class="card-img-top" src="assets/images/screen-alpha-series.jpg" alt="image blog apha series">
                 <div class="card-body">
@@ -102,7 +102,7 @@
             </div>
 
         </article>
-        <article class="py-4 ">
+        <article class="py-4 hvr-grow">
             <div class="card shadow" style="width: 18rem;">
                 <img class="card-img-top" src="assets/images/cvCapture.png" alt="image blog cryptomonnaie">
                 <div class="card-body">
@@ -115,7 +115,7 @@
 
         </article>
         </article>
-        <article class="py-4 ">
+        <article class="py-4 hvr-grow">
             <div class="card shadow" style="width: 18rem;">
                 <img class="card-img-top" src="assets/images/cryptocurrency-6601591.jpg" alt="image blog cryptomonnaie">
                 <div class="card-body">
@@ -126,7 +126,7 @@
             </div>
 
         </article>
-        <article class="py-4 ">
+        <article class="py-4 hvr-grow">
             <div class="card shadow" style="width: 18rem;">
                 <img class="card-img-top" src="assets/images/enregistrementImage.png" alt="image formulaire">
                 <div class="card-body">
@@ -137,7 +137,7 @@
             </div>
 
         </article>
-        <article class="py-4 ">
+        <article class="py-4 hvr-grow">
             <div class="card shadow" style="width: 18rem;">
                 <img class="card-img-top" src="assets/images/PortfolioCapture.png" alt="Portfolio">
                 <div class="card-body">
