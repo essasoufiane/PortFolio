@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="./css/hover.css">
+    <link rel="stylesheet" href="./css/magic.css">
+    <link rel="stylesheet" href="./css/_vanishIn.scss">
     <title>Essaouari Soufiane</title>
 </head>
 

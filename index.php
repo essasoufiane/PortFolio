@@ -27,10 +27,14 @@
         text-decoration: none;">
             <section class="banniere d-flex flex-column">
                 <h1 class="pt-5 pb-2 text-center text-white">
-                    Développeur Web et Web mobile
+                    <span class="hvr-grow-rotate">
+                        Développeur Web et Web mobile
+                    </span>
                 </h1>
                 <h2 class="p-5 text-center text-white">
-                    Soufiane Essaouari
+                    <span class="hvr-grow-rotate">
+                        Soufiane Essaouari
+                    </span>
                 </h2>
                 <div class="d-flex justify-content-center pb-3">
 
@@ -38,9 +42,10 @@
                 </div>
             </section>
             <!------------------- Le texte urgence stage --------------->
+            
             <section class="pb-5">
                 <div class="wrapper">
-                    <marquee behavior="alternate"><span class="font-weight-bolder text-danger">Urgent ! Je cherche un stage !</span></marquee>
+                    <marquee behavior="alternate"><span class="font-weight-bolder text-danger hvr-pulse">Urgent ! Je cherche un stage !</span></marquee>
                 </div>
                 <!----------------- section Présentation ----------- -->
                 <div class="mx-auto card text-white bg-info" style="max-width: 18rem;">
