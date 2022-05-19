@@ -82,11 +82,22 @@
         <section class="d-flex flex-wrap justify-content-around">
         <article class="py-4 ">
             <div class="card shadow" style="width: 18rem;">
+                <img class="card-img-top" src="assets/images/poo_mvc_fromscratchCapture.png" alt="image site php">
+                <div class="card-body">
+                    <h5 class="card-title">POO MVC fromScratch</h5>
+                    <p class="card-text">J'ai coder ce site avec une approche conceptuelle orienté objet et une architecture MVC totalement fromscratch (à la main). Cliquez <a href="https://github.com/essasoufiane/siteWeb_PourVTC_en_POO_MVC">ici</a> pour voir le code sur GitHub, et sur le bouton ci dessous pour voir le site et le tester.</p>
+                    <a href="MVC-POO-PHP-FromScratch-main/index.php" class="btn btn-primary hvr-grow">Voir le site</a>
+                </div>
+            </div>
+
+        </article>
+        <article class="py-4 ">
+            <div class="card shadow" style="width: 18rem;">
                 <img class="card-img-top" src="assets/images/screen-alpha-series.jpg" alt="image blog apha series">
                 <div class="card-body">
                     <h5 class="card-title">Alpha Séries</h5>
                     <p class="card-text">J'ai coder ce site avec HTML/CSS en from scratch, vous pouvez le voir sur GitHub.</p>
-                    <a href="https://essasoufiane.github.io/alpha-series/" class="btn btn-primary">Voir le site</a>
+                    <a href="https://essasoufiane.github.io/alpha-series/" class="btn btn-primary hvr-grow">Voir le site</a>
                 </div>
             </div>
 
@@ -97,7 +108,7 @@
                 <div class="card-body">
                     <h5 class="card-title">CV</h5>
                     <p class="card-text">Vous pouvez telecharger mon CV en pdf ici.</p>
-                    <a href="assets/ESSAOUARI_Soufiane.pdf" download="ESSAOUARI_Soufiane.pdf" class="btn btn-primary">Telecharger le CV</a>
+                    <a href="assets/ESSAOUARI_Soufiane.pdf" download="ESSAOUARI_Soufiane.pdf" class="btn btn-primary hvr-grow">Telecharger le CV</a>
 
                 </div>
             </div>
@@ -110,7 +121,7 @@
                 <div class="card-body">
                     <h5 class="card-title">CryptoManiax</h5>
                     <p class="card-text">J'ai créé ce blog qui traite les sujets cryptomonnaies et blockchain avec WordPress.</p>
-                    <a href="https://cryptomaniax.fr/" class="btn btn-primary">Voir le site</a>
+                    <a href="https://cryptomaniax.fr/" class="btn btn-primary hvr-grow">Voir le site</a>
                 </div>
             </div>
 
@@ -121,7 +132,7 @@
                 <div class="card-body">
                     <h5 class="card-title">formulaire login</h5>
                     <p class="card-text">J'ai créé un système de login vous pouvez vous enregistrer et vous connecter et vous  serais enregister dans la base de données de ce site vous serais afficher dans la page <a href="utilisateurs.php">utilisateurs</a> .</p>
-                    <a href="enregistrement.php" class="btn btn-primary">S'enregistrer</a>
+                    <a href="enregistrement.php" class="btn btn-primary hvr-grow">S'enregistrer</a>
                 </div>
             </div>
 
@@ -132,7 +143,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Portfolio</h5>
                     <p class="card-text">J'ai coder ce site from scratch avec PHP , vous pouvez voir le code sur GitHub.</p>
-                    <a href="https://github.com/essasoufiane/PortFolio" class="btn btn-primary">Voir le code</a>
+                    <a href="https://github.com/essasoufiane/PortFolio" class="btn btn-primary hvr-grow">Voir le code</a>
                 </div>
             </div>
 
