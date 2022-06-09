@@ -162,6 +162,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfcaff', end
                 </div>
 
             </article>
+            <article data-aos-duration="3000" data-aos="fade-up" class="py-4">
+                <div class="card shadow" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/fondNOir900_300_2.pnd" alt="Portfolio">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio</h5>
+                        <p class="card-text">J'ai coder ce site from scratch avec PHP , vous pouvez voir le code sur GitHub.</p>
+                        <a href="https://github.com/essasoufiane/PortFolio" class="btn btn-primary hvr-grow">Voir le code</a>
+                    </div>
+                </div>
+
+            </article>
+            <article data-aos-duration="3000" data-aos="fade-up" class="py-4">
+                <div class="card shadow" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/fondNOir900_300.pnd" alt="Portfolio">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio</h5>
+                        <p class="card-text">J'ai coder ce site from scratch avec PHP , vous pouvez voir le code sur GitHub.</p>
+                        <a href="https://github.com/essasoufiane/PortFolio" class="btn btn-primary hvr-grow">Voir le code</a>
+                    </div>
+                </div>
+
+            </article>
         </section>
     </main>
 
